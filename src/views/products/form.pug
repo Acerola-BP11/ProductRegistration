@@ -1,0 +1,19 @@
+doctype
+html(lang='en')
+    head
+        link(rel="stylesheet", href="/style.css", type="text/css")
+        meta(charset='utf-8')
+        title Cadastro de produto
+    body
+    h1 Formulario de Produtos
+    a(href="/products") Formulario para listagem de Produto
+    br
+    br
+    form(action="/products/create", method='post')
+        label Nome
+        input(type="text", name="name", required)
+        br
+        label  Marca
+        input(type="text", name="marca", required)
+        br
+        button(type="submit") Salvar  

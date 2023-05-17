@@ -1,0 +1,18 @@
+doctype
+html(lang='pt-br')
+    head
+        link(rel="stylesheet", href="/style.css", type="text/css")
+        meta(charset='utf-8')
+        title Market
+    body
+    h1 Market
+    a(href='/products/form') Formulario de Produtos
+    br
+    a(href='/products') Listagem de Produtos
+    div(class='center-screen')
+        ul Nome
+            each product in productsList
+                li=product.name
+        ul Marca
+            each product in productsList
+                li=product.marca

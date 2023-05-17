@@ -1,0 +1,53 @@
+button{
+    color: rgb(93, 4, 125);
+}
+a{
+    color: rgb(0, 34, 255);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50px;  
+    color: rgb(106, 14, 176)
+}
+body{
+    background-color: #171515;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+  }
+label{
+    color: white;
+}
+li{
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+div{
+    flex: content;
+    flex-basis: auto;
+    align-content: flex-start;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+ul{
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
