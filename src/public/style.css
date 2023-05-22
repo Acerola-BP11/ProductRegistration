@@ -33,17 +33,12 @@ label{
 }
 li{
     color: white;
-    border-color: white;
-    border-style: solid;
-    border-width: 2px;
 }
 div{
     flex: content;
     flex-basis: auto;
     align-content: flex-start;
-    border-color: white;
-    border-style: solid;
-    border-width: 2px;
+    
 }
 ul{
     color: white;
