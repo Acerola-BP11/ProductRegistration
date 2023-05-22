@@ -21,7 +21,8 @@ app.listen(8080, () => {
 // Routes
 
 app.get('/', HomeController.home)
-app.get('/products', ProductController.list)
+app.get('/products/nome', ProductController.listNome)
+app.get('/products/marca', ProductController.listMarca)
 app.get('/products/form', ProductController.form)
 app.post('/products/create', ProductController.create)
 app.get('/products/market', ProductController.market)
